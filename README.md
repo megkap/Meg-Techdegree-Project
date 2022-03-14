@@ -1,2 +1,2 @@
-# Meg Techdegree Project
- my techdegree project
+# Meg's Techdegree Project
+ My techdegree project

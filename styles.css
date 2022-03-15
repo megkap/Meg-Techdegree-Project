@@ -80,7 +80,7 @@ header .profile-contact-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 10px solid white;
+  border: 10px solid rgb(238, 171, 48);
   transition: all .5s;
 }
 
@@ -127,7 +127,7 @@ header .profile-experience-image:hover {
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-  border: 5px solid white
+  border: 5px solid rgb(238, 171, 48)
 } 
 .location {
   background-color: white;
@@ -167,6 +167,26 @@ ul.skills {
   background: #1b5981;
 }
 
+.contact { margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: white;
+  border: 10px solid rgb(238, 171, 48) ;
+  border-radius: 6px;
+  transition: all .5s;
+  color: teal
+
+}
+main .contact_image
+{ margin-top: 20px;
+  width: 350px;
+  height: 350px;
+  border-radius: 6px;
+  border: 10px solid rgb(238, 171, 48);
+  transition: all .5s;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
@@ -198,12 +218,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }

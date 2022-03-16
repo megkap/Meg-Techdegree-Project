@@ -167,6 +167,18 @@ ul.skills {
   background: #1b5981;
 }
 
+.experience { margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: white;
+  border: 10px solid greenyellow ;
+  border-radius: 6px;
+  transition: all .5s;
+  color: black
+
+}
+
 .contact { margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
